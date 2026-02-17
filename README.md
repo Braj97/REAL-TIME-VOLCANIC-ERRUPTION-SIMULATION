@@ -103,3 +103,17 @@ BEGIN
     END IF;
 END;
 $$ LANGUAGE plpgsql;
+# ANALYTICAL HEAT MAP
+CREATE VIEW heat_map AS
+SELECT
+    AVG(temperature) AS avg_temperature,
+    MAX(temperature) AS max_temperature,
+    AVG(pressure) AS avg_pressure
+FROM terrain_grid;
+# FULL SIMULATION RUN
+SELECT increase_pressure(2);
+SELECT check_eruption();
+SELECT cool_lava();
+SELECT * FROM heat_map;
+# OUTPUT
+
