@@ -1,2 +1,5 @@
 # REAL-TIME-VOLCANIC-ERRUPTION-SIMULATION
 Postgresql 
+# CREATE SCHEME
+CREATE SCHEMA volcano_lab;
+SET search_path TO volcano_lab;
