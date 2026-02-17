@@ -116,4 +116,5 @@ SELECT check_eruption();
 SELECT cool_lava();
 SELECT * FROM heat_map;
 # OUTPUT
-
+https://i.supaimg.com/f4038af5-7355-4141-a978-85e1f105a407.png
+https://i.supaimg.com/47edba02-7f8b-4b87-b74f-d63d9a65473b.png
